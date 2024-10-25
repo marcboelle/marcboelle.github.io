@@ -1,0 +1,45 @@
+name: Compile SCSS to CSS
+
+on:
+  push:
+    branches:
+      - main  # or your branch name
+    paths:
+      - _sass/_themes.scss  # Specify the file(s) to trigger the workflow
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'  # Version de Ruby; mettez à jour si nécessaire
+
+      - name: Install Bundler
+        run: gem install bundler
+
+      - name: Create Gemfile
+        run: |
+          echo "source 'https://rubygems.org'" > Gemfile
+          echo "gem 'sassc'" >> Gemfile
+
+      - name: Install Gems
+        run: bundle install
+
+      - name: Compile SCSS to CSS
+        run: bundle exec sassc _themes.scss theme.css
+
+      - name: Commit compiled CSS
+        run: |
+          git config --global user.email "your-email@example.com"
+          git config --global user.name "your-username"
+          git add theme.css
+          git commit -m "Compiled SCSS to CSS"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
