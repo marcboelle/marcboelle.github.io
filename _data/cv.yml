@@ -1,0 +1,84 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Tess Breton
+    - name: Languages
+      value: French (native), English (C2), German (B2-C1), Spanish (B1)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MVA Master
+      institution: École Normale Supérieure Paris-Saclay - France
+      year: 2024-2025
+      description: 
+        - First semester courses, Convex Optimization, Computational Statistics, Probabilistic Graphical Models, Reinforcement Learning, Geometric Data Analysis, Optimal Transport and Object Recognition
+    - title: Cycle Ingénieur
+      institution: École Polytechnique - Palaiseau, France
+      year: 2021-2025
+      description:
+        - Specialized in Applied Mathematics
+        - Courses in Statistics, Machine Learning, Operations Research...
+        - "GPA: 3.94/4.0"
+    - title: Classe Préparatoire MPSI-MP*
+      institution: Lycée Louis Le Grand - Paris, France
+      year: 2019-2021
+      description: Intensive two-year high-level program to prepare for the competitive entrance
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Columbia University, Herbert and Florence Irving Institute for Cancer Dynamics (IICD) - New York, United States
+      year: 2024
+      description: 
+        - Research internship supervised by Simon Tavaré and Khanh Dinh. 
+        - Mathematical modeling and simulation of ecDNA dynamics in cancer cell populations. 
+        - Moran process with selective pressure, ABC inference. Python code available on GitHub.
+    - title: R&D Intern
+      year: 2023
+      description: 
+        - Worked on evaluating the robustness of a Deep Learning algorithm for lung nodule detection and segmentation. 
+        - CT scan images
+        - Python code
+
+    - title: "Tutor"
+      institution: École Polytechnique - Palaiseau, France
+      year: 2023
+      description: Tutoring third-year Bachelor students in Asymptotic Statistics.
+        
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2019
+#       items: 
+#         - EPSRC Excellence Award. Doctorate scholarship.
+#     - year: 2017
+#       items: 
+#         - Amsterdam Science Talent Scholarship for MSc. One of five recipients.
+#     - year: 2016
+#       items: 
+#         - Gibbs Prize for "outstanding academic achievement" in final year of MMath.
+#         - Gibbs Dissertation Prize for MMath dissertation.
+#     - year: 2015
+#       items:
+#         - EPSRC Vacation Bursary. Support for summer research project.
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
