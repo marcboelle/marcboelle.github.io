@@ -4,7 +4,7 @@
     - name: Full Name
       value: Marc Boëlle
     - name: Languages
-      value: French (native), English (C2), German (B2-C1), Spanish (B1)
+      value: French (native), English (C2), German (B2), Arabic (beginner)
 
 - title: Education
   type: time_table
@@ -13,15 +13,15 @@
       institution: École Normale Supérieure Paris-Saclay - France
       year: 2024-2025
       description: 
-        - First semester courses, Convex Optimization, Computational Statistics, Probabilistic Graphical Models, Reinforcement Learning, Geometric Data Analysis, Optimal Transport and Object Recognition
+        - First semester courses, Probabilistic Graphical Models, Time Series, Advanced Learning for Text and Graph Data, Reinforcement Learning, Geometric Data Analysis, Optimal Transport and Object Recognition
     - title: Cycle Ingénieur
       institution: École Polytechnique - Palaiseau, France
       year: 2021-2025
       description:
         - Specialized in Applied Mathematics
         - Courses in Statistics, Machine Learning, Operations Research...
-        - "GPA: 3.94/4.0"
-    - title: Classe Préparatoire MPSI-MP*
+        - "GPA: 3.91/4.0"
+    - title: Classe Préparatoire PCSI-PC*
       institution: Lycée Louis Le Grand - Paris, France
       year: 2019-2021
       description: Intensive two-year high-level program to prepare for the competitive entrance
@@ -29,24 +29,20 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Intern
-      institution: Columbia University, Herbert and Florence Irving Institute for Cancer Dynamics (IICD) - New York, United States
+    - title: Research Affiliate
+      institution: Berkeley National Laboratory, Grid Integration Group - Berkeley, United States
       year: 2024
       description: 
-        - Research internship supervised by Simon Tavaré and Khanh Dinh. 
-        - Mathematical modeling and simulation of ecDNA dynamics in cancer cell populations. 
-        - Moran process with selective pressure, ABC inference. Python code available on GitHub.
+        - Research internship supervised by Alexandre Moreira da Silva. 
+        - Optimization algorithms to set competitive prices for long-term energy storage systems
+        - Unit commitment problem, transmission constraints between states
     - title: R&D Intern
       year: 2023
+      institution: CSEM Research Center, Switzerland
       description: 
-        - Worked on evaluating the robustness of a Deep Learning algorithm for lung nodule detection and segmentation. 
-        - CT scan images
-        - Python code
-
-    - title: "Tutor"
-      institution: École Polytechnique - Palaiseau, France
-      year: 2023
-      description: Tutoring third-year Bachelor students in Asymptotic Statistics.
+        - Designed Machine and Deep learning algorithms for solar energy production forecast 
+        - Implemented recurrent convolutional neural networks for predicting clouds position from satellite images
+        - PyTorch
         
 
 # - title: Honors and Awards
